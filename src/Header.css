@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header container */
+.header {
+  align-items: center;
+  background-color: #131921;
+  display: flex;
+  height: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo styling */
+.header_logo {
+  margin: 0 20px;
+  object-fit: contain;
+  width: 100px;
+}
+
+/* Search bar styling */
+.header_search {
+  align-items: center;
+  border-radius: 24px;
+  display: flex;
+  flex: 1 1;
+}
+
+.header_searchInput {
+  border: none;
+  height: 13px;
+  padding: 10px;
+  width: 98%;
+}
+
+.header_searchIcon {
+  background-color: orange;
+  height: 22px;
+  padding: 5px;
+}
+
+/* Header options styling */
+.header_option {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header_nav {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-evenly;
+}
+
+.header_optionLineone {
+  font-size: 10px;
+}
+
+.header_optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+/* Basket icon styling */
+.header_optionBasket {
+  align-items: center;
+  color: #fff;
+  display: flex;
+}
+
+.header_basketCount {
+  color: orange;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* Additional styling for a cart click */
+.click_header_cart {
+  align-items: center;
+  color: #fff;
+  display: flex;
+}
+
+.header_clearlink {
+    text-decoration: none;
+}
